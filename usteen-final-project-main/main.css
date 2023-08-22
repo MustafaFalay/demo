@@ -42,3 +42,13 @@ border-radius: 10px 10px 0px 0px;
 object-fit:cover ;
 object-position:top right ;
 }
+
+.bcard_body{
+
+    background-color: #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3,5rem;
+    padding-right: 3,5rem;
+}
