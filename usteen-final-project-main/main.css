@@ -97,10 +97,30 @@ margin right: 1rem;
 font-size: 1.4rem;
 }
 .bcard__btn--email{
-background-color:chartreuse ;
+background-color:#7D5BA6 ;
 border: 1px solid dimgrey;
 }
 .bcard__btn--linkedin{
     background: #5093E2;
     color: #FFFFFF;
+}
+
+
+.bcard__text-wrapper{
+margin top: 1.8rem; ;
+margin bottom: 1.8rem;
+}
+
+.bcard__text-wrapper * + *{
+    margin-top: 1em;
+}
+
+.bcard__heading{
+color:blue;
+font-size: 1.6rem;
+}
+
+.bcard__text{
+    color:black;
+    font-size: 1.08;
 }
