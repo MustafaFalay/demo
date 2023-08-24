@@ -1,19 +1,16 @@
-<style>@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,500;10..48,600;10..48,700&display=swap');
-
-</style>* {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 html {
-    font-size: 62, 5;
+    font-size: 62.5%;
 }
 
 body {
 
     background-color: #7D5BA6;
-    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 a {
@@ -30,15 +27,17 @@ a {
 }
 
 .bcard {
-    width: 37, 5rem;
+    width: 37.5rem;
     margin: 1rem;
 
 }
 
 .bcard__profile-img {
-    width: 37, 5rem;
-    height: 37, 5rem;
+    width: 37.5rem;
+    height: 37.5rem;
     border-radius: 10px 10px 0px 0px;
+    border-color: #5093E2;
+    border-radius: 2rem;
     object-fit: cover;
     object-position: top right;
     display: block;
@@ -48,13 +47,16 @@ a {
 }
 
 .bcard__body {
-
     background-color: wheat;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 3, 5rem;
-    padding-right: 3, 5rem;
+    text-align: center;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .bcard__heading-wrapper {
@@ -62,17 +64,17 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1, 6rem;
+    padding: 1.6rem;
 
 }
 
 .bcard__heading-wrapper *+* {
-    margin-top: 0, 5em;
+    margin-top: 0.5em;
 }
 
 .bcard__name {
     color: black;
-    font-size: 2, 5rem;
+    font-size: 2.5rem;
     font-weight: bold;
     line-height: 30px;
 }
@@ -81,7 +83,7 @@ a {
 .bcard__title {
     color: black;
     font-weight: 400px;
-    font-size: 1, 28rem;
+    font-size: 1.28rem;
 }
 
 .bcard__btn-wrapper {
@@ -89,7 +91,6 @@ a {
     align-items: center;
     justify-content: space-between;
     width: 25%;
-
 }
 
 .bcard__btn {
@@ -101,7 +102,7 @@ a {
 }
 
 .bcard__btn-icon {
-    margin right: 2.8rem;
+    margin-right: 2.8rem;
     font-size: 1.4rem;
 }
 
@@ -118,13 +119,12 @@ a {
 
 
 .bcard__text-wrapper {
-    margin top: 1.8rem;
-    ;
-    margin bottom: 1.8rem;
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
 }
 
 .bcard__text-wrapper *+* {
-    margin-top: 1em;
+    margin-top: 0.8em;
 }
 
 .bcard__heading {
