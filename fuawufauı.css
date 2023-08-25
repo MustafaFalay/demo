@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+
+    background-color:#1A1B21;
+}
+
+a {
+    all: unset
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bcard {
+    width: 37.5rem;
+    margin: 1rem;
+
+}
+
+.bcard__profile-img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+    object-position: top right;
+ 
+}
+
+.bcard__body {
+    background-color:#072bf1(0, 0, 0, 0.555);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    border: 1px solid #ffffff;
+    border-radius: 3%   ;
+}
+
+.bcard__heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem;
+
+}
+
+.bcard__heading-wrapper *+* {
+    margin-top: 0.5em;
+}
+
+.bcard__name {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+
+.bcard__title {
+    color: rgb(255, 255, 255);
+    font-weight: 400px;
+    font-size: 1.28rem;
+}
+.bcard__website{
+color: white;
+
+}
+
+.bcard__btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    
+}
+
+.bcard__btn {
+    min-width: 11.5rem;
+    height: 3.4rem;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.bcard__btn-icon {
+    margin-right: 2.8rem;
+    font-size: 1.4rem;
+}
+
+.bcard__btn--email {
+    background-color: #5ba1bd;
+    border: 1px solid dimgrey;
+    color: white;
+ 
+}
+
+.bcard__btn--linkedin {
+    background: #5ce25065;
+    color: #ffffff;
+    margin-right: 25rem;
+}
